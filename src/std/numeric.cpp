@@ -5,5 +5,5 @@ using namespace std;
 
 int main() {
 
-    cout << nullptr << endl;
+    cout << "nullptr" << endl;
 }
