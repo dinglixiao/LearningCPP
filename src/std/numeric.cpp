@@ -1,11 +1,17 @@
 #include <iostream>
 #include <numeric>
 #include <thread>
+#include <algorithm>
+#include <vector>
 
 using namespace std;
 
 
 int main() {
 
-    return 0;
+    auto f = [] {
+        return 1;
+    };
+
+    cout << f() << endl;
 }
