@@ -3,15 +3,21 @@
 #include <thread>
 #include <algorithm>
 #include <vector>
+#include <type_traits>
+#include <tuple>
+#include <algorithm>
+#include <charconv>
+#include <string>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <sstream>
 
 using namespace std;
 
-
 int main() {
 
-    auto f = [] {
-        return 1;
-    };
-
-    cout << f() << endl;
+    char c[]{"hello"};
+    std::cout << c << std::endl;
+    return 0;
 }
